@@ -1,8 +1,8 @@
 const main = document.querySelector("main");
 const infoBlock = document.querySelector(".info-block");
 const setRate = function (n) {
-    let fill = "<img src='img/cat-fill.svg' alt='^_^'>"
-    let stroke = "<img src='img/cat-stroke.svg' alt='O_o'>"
+    let fill = "<img src='img/cat-fill.svg'>"
+    let stroke = "<img src='img/cat-stroke.svg'>"
     let rate = "", cnt = 10;
     for (let i = 0; i < cnt; i++) {
         rate += i < n ? fill : stroke;
