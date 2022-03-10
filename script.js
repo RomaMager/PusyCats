@@ -1,11 +1,11 @@
 const main = document.querySelector("main");
 const infoBlock = document.querySelector(".info-block");
 const setRate = function (n) {
-    let fill = "<img src='img/cat-fill.svg'>"
-    let stroke = "<img src='img/cat-stroke.svg'>"
+    let color = "<img src='img/cat-fill.svg' alt = 'черный котик'>"
+    let noColor = "<img src = 'img/cat-stroke.svg' alt = 'прозрачный котик'>"
     let rate = "", cnt = 10;
     for (let i = 0; i < cnt; i++) {
-        rate += i < n ? fill : stroke;
+        rate += i < n ? color : noColor;
     }
     return rate;
 }
